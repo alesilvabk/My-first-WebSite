@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>actividades de GYM Wolf</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald" rel="stylesheet">
+        <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">  
+
+                <header class="col-lg-4" id="principio">
+                    <a href="index.html"><img src="imgs/logoBarra.png" class="hidden-xs center-block" alt="logo de la empresa" title="logo" ></a>
+                </header>
+
+                <!--BARRA DE NAVEGACION-->
+
+                <nav class="navbar navbar-default col-lg-8">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand visible-xs" href="index.html"><img id="marca" src="imgs/logoBarra.png" alt="logo"></a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">INICIO <span class="sr-only">(current)</span></a></li>
+                                <li><a href="quienesSomos.html">QUIENES SOMOS</a></li>
+                                <li><a href="horarios.html">HORARIOS</a></li>
+
+                                <li class="active"> <a href="actividades.html" class="dropdown-toggle" id="drop2" data-toggle="dropdown" role="button" aria-haspopup="true" > 
+                                        ACTIVIDADES <span class="caret"></span> </a> 
+                                    <ul class="dropdown-menu" aria-labelledby="drop2">
+                                        <li><a href="actividades.html">Actividades</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="actividades.html#iniciacion">Iniciación</a></li> 
+                                        <li><a href="actividades.html#cuerpoymente">Cuerpo y Mente</a></li> 
+                                        <li><a href="actividades.html#imagenysalud">Imagen y Salud</a></li> 
+                                        <li><a href="actividades.html#diversion">Diversión</a></li> 
+                                        <li><a href="actividades.html#rendimiento">Rendimiento</a></li> 
+                                    </ul> 
+                                </li>
+                                <li><a data-toggle="modal" data-target="#form">REGISTRO</a></li>
+
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+
+
+            </div>
+
+            <!-- MAIN -->
+            <main>
+
+                <div class="row">
+
+                    <h1 class="col-xs-12">Actividades</h1>
+
+                    <!-- SECCION INICIACION -->
+                    <section id="iniciacion" class="col-xs-12">
+                        <h2 class="titulares">Iniciación</h2>
+                        <p>Clases de intensidad leve a moderada que tienen el objetivo de lograr mejores resultados a largo plazo en lo que refiere a educación, respeto y comportamiento tanto dentro como fuera del club, cumplimiento de normas, cuidado y uso de materiales y de instaurar y/o reafirmar el gusto por realizar actividad física.</p>
+                        <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#iniciacionVideo" id="iniciacionYT">Ver Video</a></p>
+                        <dl>
+                            <dt>Iniciación al Fitness:</dt>
+                            <dd>Actividad de intensidad leve a moderada de introducción y enseñanza de las distintas técnicas de entrenamiento muscular y cardiovascular basándose en modalidades de gimnasia grupal para socios de 11 a 13 años. </dd>
+                            <dt>Iniciación a la Musculación:</dt>
+                            <dd>Actividad de intensidad leve a moderada de introducción y enseñanza de las distintas técnicas de entrenamiento muscular y cardiovascular para socios de 11 a 13 años. Es la única actividad del Área Fitness que se realiza en Sala de Musculación.</dd>
+                            <dt>Spinning:</dt>
+                            <dd>Actividad de intensidad leve a moderada de introducción y enseñanza de las distintas técnicas de entrenamiento cardiovascular en bicicleta estacionaria para socios de 11 años en adelante.</dd>
+                        </dl>
+                        <figure>
+                            <img src="imgs/Iniciacion.jpg" title="Clase de iniciacion al Fitnees" alt="Ejercicio de iniciacion" class="img-responsive col-xs-12 col-md-6">
+                            <img src="imgs/EntrenadorGYM.jpg" title="Iniciacion a la Musculacion" alt="Ejercicio de iniciacion con profesor" class="img-responsive col-md-6 hidden-xs hidden-sm">
+                        </figure>
+                    </section>
+
+                    <!-- SECCION CUERPO Y MENTE -->
+
+                    <section id="cuerpoymente" class="col-xs-12">
+                        <h2 class="titulares">Cuerpo y Mente</h2>
+                        <p>Clases de intensidad predominantemente moderada, que tiene el objetivo de lograr una mejor calidad de vida integrando cuerpo y mente en el entrenamiento.</p>
+                        <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cuerpoymenteVideo">Ver Video</a></p>
+                        <dl>
+                            <dt>Expresión corporal:</dt>
+                            <dd> Actividad artística de intensidad leve a moderada que busca desarrollar y mejorar sensibilidad, imaginación, creatividad y comunicación.</dd>
+                            <dt>Tai chi:</dt>
+                            <dd>Disciplina de intensidad leve a moderada que busca mejorar movilidad articular, concentración y autocontrol a través de ejercicios de respiración y meditación, combinados con movimiento lentos y fluidos.</dd>
+                            <dt>Yoga:</dt>
+                            <dd>Disciplina física y mental de intensidad variable que busca mejorar movilidad, flexibilidad y fuerza, mediante armonía, paz y equilibrio integrando cuerpo, mente y espíritu.</dd>
+                        </dl>
+                        <figure>
+                            <img src="imgs/YogaGYM.jpg" title="Clase de yoga" alt="realizando ejercicios de yoga en colchoneta" class="img-responsive col-xs-12 col-md-6">
+                            <img src="imgs/TaichiGYM.jpg" title="Sesion Taichi" alt="relajando la mente a traves del taichi" class="img-responsive col-md-6 hidden-xs hidden-sm">
+                        </figure>
+                    </section>
+
+                    <!-- SECCION IMAGEN Y SALUD -->
+
+                    <section id="imagenysalud" class="col-xs-12">
+                        <h2 class="titulares">Imagen y Salud</h2>
+                        <p>Clases de intensidades leve a alta que además de buscar mejorar las capacidades musculares y cardiovasculares (calidad de vida) tienen también un fin estético.</p>
+                        <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#imagenysaludVideo">Ver Video</a></p>
+                        <dl>
+                            <dt>Adultos Mayores:</dt>
+                            <dd>Actividad de intensidad leve a moderada que combina trabajos musculares y cardiovasculares, con el objetivo de mejorar estabilidad, movilidad, elongación, fuerza, resistencia y coordinación.</dd>
+                            <dt>Aero Local:</dt>
+                            <dd>Actividad de intensidad moderada a alta que combina trabajos cardiovasculares y musculares, con el objetivo de mejorar capacidad y resistencia cardiovascular y coordinación, resistencia, fuerza y tono muscular.</dd>
+                            <dt>Gimnasia Integral para Adultos:</dt>
+                            <dd>Actividad de intensidad leve a moderada dirigida a un público entre adulto y adulto mayor, que combina trabajos musculares y cardiovasculares, con el objetivo de mejorar capacidad y resistencia cardiovascular y coordinación, resistencia, fuerza y tono muscular.</dd>
+                            <dt>Gimnasia Tradicional para Adultos:</dt>
+                            <dd>Actividad de intensidad moderada a alta dirigida a un público adulto, que combina trabajos cardiovasculares y musculares, con el objetivo de mejorar capacidad y resistencia cardiovascular y coordinación, resistencia, fuerza y tono muscular.</dd>
+                            <dt>Hidro:</dt>
+                            <dd>Actividad de intensidad leve a moderada que combina trabajos cardiovasculares y musculares en el agua, con el objetivo de mejorar capacidad y resistencia cardiovascular, coordinación, resistencia y tono muscular y producir beneficios como son mejorar circulación sanguínea, mejorar postura y disminuir presión articular.</dd>
+                            <dt>Higiene de Columna:</dt>
+                            <dd>Actividad de intensidad leve a moderada dirigida a un público entre adulto y adulto mayor, que combina trabajos posturales estáticos y dinámicos, con el objetivo de mejorar movilidad, estabilidad y estiramiento de la columna vertebral.</dd>
+                            <dt>Local:</dt>
+                            <dd>Actividad de intensidad moderada a alta de entrenamiento muscular, que busca mejorar resistencia, fuerza y tono, tanto en forma general como localizada.</dd>
+                            <dt>Local con Barras:</dt>
+                            <dd>Actividad de intensidad moderada a alta de entrenamiento muscular realizado principalmente con barras y discos, que busca mejorar resistencia, fuerza y tono, tanto en forma general como localizada.</dd>
+                            <dt>Pilates:</dt>
+                            <dd>Disciplina de intensidad moderada a alta de entrenamiento físico y mental, que plantea movimientos dinámicos y estáticos derivados de danza, yoga, esgrima y otras técnicas con el objetivo de mejorar movilidad, flexibilidad, postura, fuerza y tono muscular integrando cuerpo, mente y espíritu.</dd>
+                            <dt>Stretching:</dt>
+                            <dd>Actividad de intensidad leve a moderada que plantea movimientos dinámicos y estáticos de elongación, con el objetivo de mejorar flexibilidad, elasticidad y tono muscular.</dd>
+                        </dl>
+                        <figure>
+                            <img src="imgs/Pilates.jpg" title="clase de pilates" alt="estirando en clase de pilates" class="img-responsive col-xs-12 col-md-6">
+                            <img src="imgs/StretchingGYM.jpg" title="Clase de Sretching" alt="realizando ejercicio de sretching" class="img-responsive col-md-6 hidden-xs hidden-sm">
+                        </figure>
+                    </section>
+
+                    <!-- SECCION DIVERSION -->
+
+                    <section id="diversion" class="col-xs-12">
+                        <h2 class="titulares">Diversión</h2>
+                        <p>Clases de intensidad leve a alta que a través de baile buscan mejorar las capacidades cardiovasculares y coordinativas.</p>
+                        <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#diversionVideo">Ver Video</a></p>
+                        <dl>
+                            <dt>Salsa:</dt>
+                            <dd>Actividad de intensidad moderada a alta de trabajo cardiovascular, que busca mejorar las capacidades cardiovasculares y coordinativas a través de técnicas de baile afro y españolas.</dd>
+                            <dt>Zumba:</dt>
+                            <dd>Actividad de intensidad moderada a alta de trabajo cardiovascular, que busca mejorar las capacidades cardiovasculares y coordinativas a través de técnicas de baile como son salsa, merengue, cumbia, reggaeton, samba, etc.</dd>
+                            <dt>Golden Zumba</dt>
+                            <dd>Actividad de intensidad leve a moderada de trabajo cardiovascular, dirigida a un público entre adulto y adulto mayor, que busca mejorar las capacidades cardiovasculares y coordinativas a través de técnicas de baile como son salsa, merengue, cumbia, reggaeton, samba, etc.</dd>
+                        </dl>
+                        <figure>
+                            <img src="imgs/ZumbaGYM.jpg" title="clase de zumba" alt="grupo de zumba" class="img-responsive col-xs-12 col-md-6">
+                            <img src="imgs/fiesta.jpg" title="toda la diversion en clase" alt="clases divertidas" class="img-responsive col-md-6 hidden-xs hidden-sm">
+                        </figure>
+                    </section>
+
+                    <!-- SECCION RENDIMIENTO -->
+
+                    <section id="rendimiento" class="col-xs-12">
+                        <h2 class="titulares">Rendimiento</h2>
+                        <p>Clases de intensidad predominantemente alta que tienen el objetivo de mejorar el rendimiento físico en general.</p>
+                        <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#rendimientoVideo">Ver Video</a></p>
+                        <dl>
+                            <dt>Functional Training:</dt>
+                            <dd>Actividad de intensidad predominantemente alta que combina trabajo muscular y cardiovascular basándose en métodos de entrenamiento intervalado, alternando estímulos de alta intensidad con períodos de recuperación con el objetivo de mejorar capacidad y resistencia cardiovascular y coordinación, agilidad, resistencia, fuerza y tono muscular.</dd>
+                            <dt>Grupo de Running:</dt>
+                            <dd>Actividad de intensidad leve a alta de trabajo cardiovascular corriendo, que se basa en métodos de entrenamiento continuos y/o intervalados con el objetivo de mejorar capacidad aeróbica y anaeróbica y resistencia muscular y cardiovascular.</dd>
+                            <dt>Spinning:</dt>
+                            <dd>Actividad de intensidad leve a alta de trabajo cardiovascular en bicicleta estacionaria, que se basa en métodos de entrenamiento continuos y/o intervalados con el objetivo de mejorar capacidad aeróbica y anaeróbica, resistencia y fuerza muscular y potencia y resistencia cardiovascular.</dd>
+                            <dt>TABATA:</dt>
+                            <dd>Actividad de intensidad predominantemente alta que combina trabajo muscular y cardiovascular basándose en métodos de entrenamiento intervalado, alternando estímulos de alta intensidad con períodos de recuperación con el objetivo de mejorar capacidad y resistencia cardiovascular y coordinación, agilidad, resistencia, fuerza y tono muscular.</dd>
+                            <dt>Total Training:  </dt>
+                            <dd>Actividad de intensidad predominantemente alta que combina trabajo muscular y cardiovascular basándose en métodos de entrenamiento intervalado, alternando estímulos de alta intensidad con períodos de recuperación con el objetivo de mejorar técnicas de desplazamiento, salto y movimiento, capacidad y resistencia cardiovascular y coordinación, agilidad, resistencia, fuerza y tono muscular. Es la única actividad del Área Fitness que se realiza al aire libre, en el parque Villa Biarritz.</dd>
+                            <dt>TRX:</dt>
+                            <dd>Actividad de intensidad predominantemente alta de movimientos en suspensión, que combina trabajo muscular y cardiovascular basándose en métodos de entrenamiento intervalado, alternando estímulos de alta intensidad con períodos de recuperación con el objetivo de mejorar capacidad y resistencia cardiovascular y coordinación, agilidad, resistencia, fuerza y tono muscular.</dd>
+                            <dt>XTP:</dt>
+                            <dd>Actividad de intensidad predominantemente alta que combina trabajo muscular y cardiovascular, basándose en técnicas de levantamientos olímpicos, habilidades gimnásticas, core training, kettlebells, lanzamientos y saltos y en métodos de entrenamiento intervalado, alternando estímulos de alta intensidad con períodos de recuperación, con el objetivo de mejorar técnicas de levantamiento, salto y movimiento, capacidad y resistencia cardiovascular y coordinación, agilidad, resistencia, fuerza, potencia y tono muscular.</dd>
+                        </dl>
+                        <figure>
+                            <img src="imgs/runningGYM.jpg" title="clase de Running" alt="Mujer corriendo" class="img-responsive col-xs-12 col-md-6">
+                            <img src="imgs/TRX.jpg" title="Clase de TRX" alt="grupo en clase de TRX" class="img-responsive col-md-6 hidden-xs hidden-sm">
+                        </figure>
+                    </section>
+
+                </div>
+
+                <!-- Modal INICIACION -->
+
+                <div class="modal fade" id="iniciacionVideo" tabindex="-1" role="dialog" aria-labelledby="iniciacionVideoLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="iniciacionVideoLabel">Iniciacion</h4>
+                            </div >
+                            <div class="modal-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/QXWTiQs8Bmw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Modal CUERPO Y MENTE -->
+
+                <div class="modal fade" id="cuerpoymenteVideo" tabindex="-1" role="dialog" aria-labelledby="cuerpoymenteVideoLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="cuerpoymenteVideoLabel">Cuerpo y Mente</h4>
+                            </div >
+                            <div class="modal-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CiaD3jP0YhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal  IMAGEN Y SALUD-->
+
+                <div class="modal fade" id="imagenysaludVideo" tabindex="-1" role="dialog" aria-labelledby="imagenysaludVideoLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="imagenysaludVideoLabel">Iniciacion</h4>
+                            </div >
+                            <div class="modal-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0S7xWexc_oE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal DIVERSION -->
+
+                <div class="modal fade" id="diversionVideo" tabindex="-1" role="dialog" aria-labelledby="diversionVideoLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="diversionVideoLabel">Iniciacion</h4>
+                            </div >
+                            <div class="modal-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/apU0mq0lL7A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal RENDIMIENTO-->
+
+                <div class="modal fade" id="rendimientoVideo" tabindex="-1" role="dialog" aria-labelledby="rendimientoVideoLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="rendimientoVideoLabel">Iniciacion</h4>
+                            </div >
+                            <div class="modal-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/TmFYUpcRAKo?list=PLvXP8JO-APMToMz_Mv26KyYin7Fc8h766&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+            <!--FOOTER-->
+
+            <footer>
+                <div class="row">
+                    <div class="col-xs-6 col-md-4 text-center">
+                        <h3 >Contacto:</h3>
+                        <a href="#principio"><img src="imgs/flecha.png" alt="volver al principio" title="volver al principio" class="img-responsive img-circle" id="flecha"></a>
+                        <ul class="list-unstyled">
+                            <li><span class="glyphicon glyphicon-home " aria-hidden="true"></span> Av. Gral. Rivera y Miami</li>
+                            <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> 26048305</li>
+                            <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> GymWolf2016@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-md-4 text-center">
+                        <h3 >¡Siguenos!</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.facebook.com/wolfgangs.gym/">Facebook: #WolfGym</a></li>
+                            <li><a href="https://twitter.com/Wolfgangs_Gym92">Twitter: @WolfGym</a></li>
+                            <li><a href="https://www.instagram.com/wolfgangsgym/">Instagram: #WolfGym</a></li>
+                        </ul>
+                    </div>
+                    <div class="visible-md visible-lg col-md-4 text-center">
+                        <h3>Actividades:</h3>
+                        <ul class="list-unstyled">
+                            <li class="col-md-4">Tenis</li>
+                            <li class="col-md-4">Futbol</li>
+                            <li class="col-md-4">Basquetbol</li>
+                            <li class="col-md-4">Natacion</li>
+                            <li class="col-md-4">Gimnasia</li>
+                            <li class="col-md-4">Volley</li>
+                            <li class="col-md-4">Running</li>
+                            <li class="col-md-4">Musculacion</li>
+                            <li class="col-md-4">Circo</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+            <!--MODAL FORMULARIO--> 
+
+            <div class="row">        
+                <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="formLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="formLabel">Registro</h4>
+                            </div >
+                            <div class="modal-body">
+                                <p>los campos que se encuentra con "*" son requeridos para completar el formulario</p>
+
+                                <form class="form-horizontal" action="#" method="post" autocomplete="on"
+                                      enctype="multipart/form-data">
+
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre: (*)</label>
+                                        <div class="col-xs-12">
+                                            <input type="text" id="nombre" class="form-control col-xs-10" placeholder="Alejandro" title="No olvides completar con tu nombre">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="apellido">Apellido: (*)</label>
+                                        <div class="col-xs-12">
+                                            <input type="text" id="apellido" class="form-control" placeholder="Silva" title="No olvides completar con tu apellido">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="edad">Edad: (*)</label>
+                                        <div class="col-xs-12">
+                                            <input type="Number" id="edad" class="form-control" placeholder="20" title="No olvides completar con tu edad" min="5">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="mimail">Email: (*)</label>
+                                        <div class="col-xs-12">
+                                            <input type="email" id="mimail" class="form-control" placeholder="Alerhcp60@gmail.com" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="horario">Horario: </label>
+                                        <div class="col-xs-12">
+
+                                            <select id="horario" class="form-control">
+
+                                                <option value="Ma">Matutino</option>
+                                                <option value="Ve">Vespertino</option>
+                                                <option value="No">Nocturno</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <fieldset>
+                                        <legend>Sexo</legend>
+                                        <div class="form-group col-xs-6">
+                                            <input type="radio" id="hombre" checked name="sexo" >
+                                            <label for="hombre">Hombre </label>
+                                        </div>
+                                        <div class="form-group col-xs-6">
+                                            <input type="radio" id="mujer"  name="sexo">
+                                            <label for="mujer">Mujer </label>
+                                        </div>
+                                    </fieldset>
+
+                                    <label for="comentarios">comentario</label>
+                                    <textarea placeholder="escribe que deportes te gustaria ver el proximo mes" id="comentarios" class="form-control" cols="50" rows="3"></textarea>
+
+                                    <button type="submit" class="btn btn-default">Submit</button>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>

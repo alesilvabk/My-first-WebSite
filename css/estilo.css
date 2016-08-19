@@ -1,0 +1,243 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    margin-bottom: 160px;
+}
+
+#marca {
+    width: 12%;
+}
+
+header img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+nav ul li {
+    margin-right: 25px; 
+    text-align: center;
+}
+
+
+#carousel-example-generic {
+    float: right;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.noticias {
+    margin: 10px 0;
+    background-color: #E5574D;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+    font-size: 55px;
+}
+
+
+.thumbnail {
+    margin-top: 10px;
+    float: left;
+}
+
+#art4 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+#art4 img {
+    width: 400px;
+    float: left;
+    padding: 5px;
+}
+
+
+
+.nav > li {
+    background-color:  #12589E;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: black;
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: #12589E;
+    border-color: #12589E;
+}
+
+footer {
+    background-color: #E5574D;
+    padding: 5px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: black 0 -10px 40px;
+    opacity: 0.9;
+    filter:alpha(opacity=0.9);
+
+}
+
+footer h3 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+}
+
+a {
+    color: #6dcfff;
+}
+
+.titulares {
+    padding: 5px;
+    padding-left: 40px;
+    background-color: #12589E;
+    color: #FFFFFF;
+}
+
+.thumbnail {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+p {
+    margin: 0 0 5px;
+    font-size: 12px;
+}
+
+.visible-xs {
+    width: 410px;
+    padding: 10px;
+}
+
+.cargos1, .cargos2 {
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cargos1 {
+    background-color: #12589E;
+}
+.cargos2 {
+    background-color: #E5574D;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #C8F3FF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+
+    border-top: 1px solid #12589E;
+}
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #12589E;
+}
+
+th {
+    font-size: 18px;
+}
+
+textarea {
+    display: block;
+    margin-left: 3%;
+    width: 94%;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a, .dropdown-menu {
+    color: #FFFFFF;
+    background-color: #12589E;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #E5574D;
+}
+
+#flecha {
+    float: left;
+    margin-left: 10px;
+}
+
+#flecha:hover {
+    background-color: white;
+    transition: all 2s ease-in-out;
+}
+
+.form-horizontal .form-group, select {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form-control {
+    width: 90%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+select {
+    margin-left: 0px;
+    margin-top: 0px
+}
+
+
+
+
+
+
+
+
+
+
+
+
